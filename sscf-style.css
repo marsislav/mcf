@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Stylesheet for the Super Simple Contact Form plugin */
+
+div.sscf-wrapper {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+p.sscf-input-wrapper {}
+	p#sscf-name-wrapper {}
+	p#sscf-from-wrapper {}
+	p#sscf-subject-wrapper {}
+	p#sscf-message-wrapper {}
+	p#sscf-submit-wrapper {}
+.sscf-report {}
+.sscf-forgot {
+	background-color: #CD5C5C;
+}
+.sscf-notify {
+	padding-bottom: 1.5em;
+}
+.sscf-notify span {
+	color: #f00;
+	border-bottom:1px dotted #f00;
+}
+.sscf-input-wrapper label {
+	width: 100px;
+	float: left;
+}
+.sscf-input-wrapper input {
+	width:280px;
+}
+.sscf-input-wrapper textarea {
+	width:280px;
+	height: 102px;
+}
+input.sscf-submit {}
+.clear {
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	display: block;
+	width: auto;
+}
